@@ -1,0 +1,14 @@
+body{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+
+.loginForm{
+    width:300px;
+    background-color: #333;
+}

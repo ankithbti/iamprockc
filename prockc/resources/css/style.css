@@ -1,0 +1,156 @@
+@font-face {
+    font-family:"Gotham";
+    src:url(../fonts/gotham_bold.otf);
+}
+@font-face {
+    font-family:"Gotham-Book-Regular";
+    src:url(../fonts/Gotham-Book-Regular.otf);
+}
+
+body{font-family: "Gotham-Book-Regular"!important;font-size: 16px;}
+.logo{text-align: center;margin-bottom: 40px;}
+.logo img{max-width: 260px;}
+
+.box_content{width: 30%;display: block;margin: 0 auto;}
+.box_content h4{color: #000;display: inline-block;font-size: 14px;font-family: "Gotham";font-size: 20px;position: relative;margin-bottom: 35px;}
+.box_content h4:after{content: '';position: absolute;bottom: -10px;width: 83px;height: 3px;background: #01439a;left: 0;}
+.box_content input {margin-bottom: 20px;}
+.allInp input,.allInp select{width: 100%;min-height: 45px;line-height:45px;border:1px solid #a2a2a2;border-radius: 25px;outline:0;padding-left: 15px;font-size: 16px;}
+.allInp select{min-height: 49px;}
+.loginInp input:nth-child(1){background: url(../images/user.png) no-repeat;background-position: 94% center;/* padding: 20px 0px; */background-size: 24px;}
+.loginInp input:nth-child(2){background: url(../images/lock.png) no-repeat;background-position: 94% center;/* padding: 20px 0px; */background-size: 24px;}
+
+.allInp button.btn{width: 100%;min-height: 45px;line-height:45px;background: #01439a;border-radius: 25px;outline:0; color: #FFF; font-size: 16px;padding: 0;margin-bottom: 25px;}
+
+.login-btn{
+    min-width: 163px;
+    min-height: 45px;
+    line-height: 45px;
+    color: #FFF;
+    background: #01439a;
+    border-radius: 5px;
+    border: none;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: "Gotham"!important;
+}
+
+.popover {max-width: 476px;font-size: 17px;padding: 16px;}
+  
+ .join{min-width: 163px;min-height: 45px;line-height:45px;color: #FFF;background: #01439a;border-radius:5px; border:none;position: absolute;right: 20px;top: 20px;font-size: 20px;text-transform: uppercase;font-family: "Gotham"!important;}
+
+.join_popup{position: absolute;right: 20px;top: 90px;width: 400px;display: none;}
+a{color: #03449e!important;}
+
+.join_popup .wrp_in {width: 49%;float: left;position: relative;margin-bottom: 10px;border-radius: 30px;overflow: hidden;}
+
+.join_popup .wrp_in:nth-child(even){float: right;}
+.w100{width: 100% !important;}
+.number_val{position: absolute;top: 0;left: 0;width: 80px;background: #a2a2a2;height: 100%;text-align: center;vertical-align: middle;color: #FFF;display: flex;
+    ;align-items: center;}
+.number span{flex:1;}
+.number input{padding-left: 90px;}
+
+.number_val select{background: none !important;}
+.number_val select option{background: #000;}
+
+.wrp_in input[type="radio"]{opacity: 0;display: none;}
+.wrp_in label{color: #a2a2a2;padding-left: 32px;background: url(../images/checkbox.png) no-repeat;background-position: 0 center;}
+
+.wrp_in input[type="radio"]:checked+label{background: url(../images/checkbox_chk.png) no-repeat;background-position: 0 center;}
+
+.join_popup button.btn{    width: auto;
+    padding: 0 40px;
+    display: block;
+    margin: 0 auto;
+}
+
+.inner_header img{max-width: 100%;}
+.inner_header{float: left;display: inline-block;width: 100%;padding: 15px 20px;}
+.inner_header .logo2{float: left;max-width: 200px;}
+.inner_header button{float: right;border:none;background: #01439a;color: #FFF;padding: 8px 23px;border-radius: 10px;font-family: "Gotham";font-size: 19px;}
+
+.inner_header button img{max-width: 40px;margin-right: 10px;}
+
+.choose_file{display: flex;margin-bottom: 30px;align-items: center;}
+.choose_file img{margin-right: 30px;}
+.choose-inner{position: relative;}
+.choose-inner input{position: absolute;width: 100%;z-index: 99;height: 100%;top: 0;left: 0;opacity: 0;}
+.choose-inner .div_choose{position: relative;width: 200px;min-height: 35px;line-height: 35px;border:1px solid #abacac;border-radius: 4px;padding-left: 15px;font-family: "Gotham";color: #999999;overflow: hidden;}
+.choose-inner .div_choose img{position: absolute;top: -1px;right: -1px;margin: 0;height: 105%;}
+.choose-inner .div_choose  span{white-space: nowrap;
+    width: 62%;
+    padding-right: 60px;
+    display: block;
+    overflow: hidden}
+#upImg{max-width:120px; }
+
+#dob{background: url(../images/date_picker.png) no-repeat;background-position:94% center; }
+#educ{background: url(../images/cap.png) no-repeat;background-position:94% center; }
+
+.radio_sec{margin-bottom: 10px;width: 100%;float: left;}
+
+.mb20{margin-bottom: 20px;}
+
+.allInp textarea{width: 100%;float: left;border:1px solid #a2a2a2;padding-left: 20px;min-height: 150px;margin-bottom: 20px;padding-top: 10px;}
+
+
+.button_block{width: 100%;height: auto;}
+.button_block button.btn {
+    display: inline-block;text-transform: uppercase;
+    margin-right: 1px;
+    width: 49% ;
+    padding: 0 60px;
+}
+
+button.btn.skip{background: #8e8e8e;}
+.right_img {
+    position: absolute;
+    right: 90px;
+    top: 220px;
+}.left_text {
+    position: absolute;
+    width: 300px;
+    left: 30px;
+    top: 320px;
+}
+
+.left_text h4{font-size: 22px;color: #01439a;font-family: "Gotham";text-align: center;text-transform: uppercase;}
+.left_text h4 span{font-family: "Gotham-Book-Regular";display: block;}
+#search{background: url(../images/search.png) no-repeat;background-position:94% center; }
+#addFrnd{background: url(../images/tick.png) no-repeat;background-position:94% center; }
+
+
+.Topmd{position: relative;top: 70px;}
+
+#frnd_img{max-width: 300px; }
+
+ .selecW select{margin-bottom: 20px;}
+
+ select{ background: url(../images/selecArrow.png) no-repeat;background-position: 94% center;appearance: none;-webkit-appearance: none;}
+
+.price_box{display: flex;align-items: center;margin-bottom: 20px;}
+.price_box .price_bx{min-height: 89px;padding: 0 15px;margin-right: 20px;line-height: 89px;font-size: 16px;font-family: "Gotham";color: #999999;background: #e8e8e8;}
+
+.price{font-size: 30px;font-family: "Gotham";color: #757575;}
+
+.pay_option{width: 100%;float: left;}
+.pay_option button{width: 49%;min-height: 65px;line-height:65px;background: #54c21e;text-transform: uppercase;border-radius: 35px;outline:0; color: #FFF; font-size: 21px;padding: 0;margin-bottom: 25px;border:none;}
+.pay_option button:nth-child(even){float: right;}
+
+.mt30{margin-top: 30px!important;display: block;}
+
+.cstm_bot{width: 100%;float: left;margin-top: 100px;position: relative;top: 80px;}
+
+.rel{position: relative;}
+#ok{position: absolute;width: 60px;height: 49px;background: #03419c;color: #FFF;top: 0;right: 0;text-align: center;line-height: 55px;display: none;}
+
+.tags{ }
+.tg{    width: auto;
+    display: inline-block;
+    padding: 10px;
+    background: #eee;
+    border-radius: 9px;margin-bottom: 30px;margin-right: 10px;}

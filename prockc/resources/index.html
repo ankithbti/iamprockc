@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Prockc</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo"><img src="images/logo.png" alt=""></div>
+            <button class="join">Join</button>
+            <div class="join_popup allInp">
+                <form action="">
+                    <div class="wrp_in">
+                        <input type="text" placeholder="First Name" name="" id="">
+                    </div>
+                    <div class="wrp_in">
+                        <input type="text" placeholder="Middle Name" name="" id="">
+                    </div>
+                    <div class="wrp_in">
+                        <input type="text" placeholder="Last Name" name="" id="">
+                    </div>
+                    <div class="wrp_in">
+                        <select name="" id="" class="pull-right">
+                            <option value="">Country</option>
+                            <option value=""></option>
+                            <option value=""></option>
+                        </select>
+                    </div>
+                    <div class="wrp_in">
+                        <input type="text" name="" id="" placeholder="Username">
+                    </div>
+                    <div class="wrp_in">
+                        <input type="password" name="" id="" placeholder="Password">
+                    </div>
+                    <div class="wrp_in">
+                        <input type="password" name="" id="" placeholder="Confirm">
+                    </div>
+                    <div class="wrp_in">
+                        <input type="text" name="" id="" placeholder="Email">
+                    </div>
+                    <div class="wrp_in w100 number">
+                        <div class="number_val"><span>
+                    <select name="" id="number_selc">
+                    <option value="">+91</option>	
+                    </select>
+                    </span></div>
+                        <input type="text" name="" id="" placeholder="Mobile">
+                    </div>
+                    <br>
+                    <div class="wrp_in">
+                        <input type="radio" name="rd" checked="" id="radio1" placeholder="Email">
+                        <label for="radio1">SMS OTP</label>
+                    </div>
+
+                    <div class="wrp_in">
+                        <input type="radio" name="rd" id="radio2" placeholder="Email">
+                        <label for="radio2">Call OTP</label>
+                    </div>
+
+                      <div class="wrp_in w100">
+                        <input type="text" name="" id="" placeholder="Enter OTP">
+                    </div>
+					
+					<button type="submit" class="btn">SIGNUP</button>	
+
+
+                </form>
+            </div>
+        </header>
+        <div class="box_content allInp loginInp">
+            <h4>Login</h4>
+            <form action="">
+                <div class="input_wrap">
+                    <input type="text" placeholder="Username">
+                    <input type="password" placeholder="Password">
+                    <button class="btn">Login</button>
+                    <div class="text-center need_help"><a href="#" data-html="true" data-toggle="popover" data-content="<a href='#'>Forget Password</a>, <a href='#'>Security Question</a>, <a href='#'>Forget Username</a> " data-placement="bottom">Need Help?</a>
+                    </div>
+                </div>
+            </form>
+
+
+
+        </div>
+<div class="text-center mt30">
+        <p class="bot">Single PROCKC account for Soc,Yoc, Wec, Rec, Doc, Level C,Call C, Res C @prockc.com    </p>
+        <!-- box -->
+        </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+    $(document).ready(function() {
+        $('[data-toggle="popover"]').popover();
+    });
+    $('.join').click(function() {
+        $('.join_popup ').slideToggle();
+    })
+    </script>
+</body>
+
+</html>
